@@ -1,0 +1,389 @@
+nav {
+  width: 100%;
+  height: auto;
+}
+.b-nav{    margin-left: 4%;}
+.ul-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  width: 80%;
+  margin-top: 15px;
+  margin-left: 47px;
+  margin-bottom: 30px;
+}
+.li-nav:hover {
+  color: blue;
+  text-decoration: underline 2px blue;
+}
+.li-nav {
+  text-decoration: none;
+  color: black;
+}
+
+.hdp {
+  background: black;
+  padding: 50px;
+}
+
+.second-ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  list-style: none;
+  text-align: center;
+}
+
+.second-a {
+  text-decoration: none;
+  text-align: center;
+  max-width: 71px;
+}
+.second-a-img{max-width: 71px;
+}
+
+main {
+  text-align: center;
+}
+
+.m-div--h {
+  color: white;
+}
+.row {
+  margin-bottom: 12px;
+}
+.buttom-div1 {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  min-width: 28px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 980px;
+  border: 0;
+  background-color: rgb(222, 226, 231);
+}
+
+.buttom-div1:hover {
+  background-color: white;
+}
+.col-12 {
+  padding: 100px;
+  background: black;
+}
+
+.col-12-1 {
+}
+
+.div-main--2 {
+  padding: 200px;
+  background-image: url(fotos/macbook-pro-14-chip-m2-vs-chip-m1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.a-div {
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.div-buttom {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  min-width: 28px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 980px;
+  background-color: #0071e3;
+  color: white;
+  border: 0;
+}
+
+.div-buttom:hover {
+  background-color: rgb(0, 68, 255);
+}
+
+.div-main--3 {
+  padding: 200px;
+  background-image: url(fotos/mac-mini-og-image-202301.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 14px;
+  background-color: black;
+  max-width: 100%;
+}
+
+.b-cont {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  min-width: 23px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 980px;
+  background-color: #0071e3;
+  color: white;
+  border: 0;
+}
+
+.b-cont--a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+}
+.cont {
+  border-bottom: 1px solid #d2d2d7;
+  background-color: rgb(250, 250, 250);
+}
+
+.div-tab {
+  display: flex;
+  justify-content: space-around;
+}
+
+.b-cont-ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 22px;
+  border-bottom: 1px solid;
+}
+
+.b-cont-li {
+  margin-bottom: 50px;
+}
+.tabla{    margin: 0 20% 0 20%;
+}
+.contenedor {
+  background-color: rgb(250, 250, 250);
+  padding-top: 77px;
+}
+
+.contenedor-div {
+  margin-bottom: 4.5rem;
+}
+
+.nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  margin-bottom: 1rem;
+  padding-left: 0px;
+}
+
+.nav-ul-a {
+  text-decoration: none;
+}
+
+.sec-nav::after {
+  background-color: #d2d2d7;
+  content: "";
+  position: absolute;
+  padding: 1px;
+  display: flex;
+  width: 11rem;
+  left: 44%;
+}
+.div-tab {
+  padding-top: 3rem;
+  flex-direction: column-reverse;
+}
+
+.tfoot-a {
+  text-decoration: none;
+  font-size: 21px;
+}
+.tfoot-td {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.parent{display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.div2{
+    background-color: rgb(242, 242, 242);
+    max-width: 45%;
+    margin: 20px;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+.div2-buttom{
+    cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  min-width: 23px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 980px;
+  background-color: #0071e3;
+  color: white;
+  border: 0;
+}
+.div3{
+    background-color: rgb(242, 242, 242);
+    max-width: 45%;
+    margin: 20px;
+    padding-top: 50px;
+}
+ .div4{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.spi{background-color: rgb(1, 255, 0);}
+ 
+ .div4-img{max-width: 40%;
+margin: 50px;}
+ 
+ .div4-img-e{max-width: 30%;
+    margin: 50px;}
+
+ .div5{margin: 50px;
+background-color: white;}
+.sec-parent{
+    background-color: white;
+}
+.down-div{    margin-top: 5rem;}
+.div-down{    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 7rem;}
+
+    .img-down{max-width: 100%;}
+
+    .div-down-1{    background-color: rgb(250, 250, 250);
+        padding-top: 4rem;
+        margin: 30px;}
+
+
+        .div-down-h{
+            font-size: 54px;
+        }
+.div-up{display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: center;}
+
+.div-up-a{max-width: 55%;}
+
+        .div-up-d{max-width: 40%;
+            padding: 88px;
+            background-color:rgb(252, 252, 252)}
+
+        .div-up-img{max-width: 100%;}
+
+            .c-div{background-color: rgb(251, 251, 253);
+                padding-top: 5rem;
+                margin: 21px;}
+
+
+        .div-c{    max-width: 60%;
+            margin-left: 23%;
+            background-color: rgb(251, 251, 253);
+        }
+
+.ul-div-img{max-width: 62px;
+}
+
+        .ul-div{    display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            background-color: rgb(251, 251, 253);
+            gap: 2rem;}
+
+            .nav-ul-div::after{
+                background-color: #d2d2d7;
+  content: "";
+  position: absolute;
+  padding: 1px;
+  display: flex;
+  width: 38rem;
+  left: 30%;  }
+
+  .div-d{padding: 30px 150px 30px 150px;}
+
+  .div-d-img{max-width: 100%;}
+
+  .div-d-back{margin-left: 25%;
+  max-width: 50%;}
+
+  .div-end{    padding: 10%;
+    font-size: 11px;
+    color: gray;
+    padding-bottom: 12px;
+}
+.icon-end{    text-align: start;
+  padding-left: 148px;}
+
+.img-end{max-width: 28px;}
+.end-ul{display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: black;
+  padding: 30px;}
+
+  .ul-end{list-style: none;
+    font-weight: 700;}
+
+    .end-a{    color: gray;
+      text-decoration: none;
+      font-weight: 33;}
+
+      .end-a:hover{
+        text-decoration: underline black;
+      }
